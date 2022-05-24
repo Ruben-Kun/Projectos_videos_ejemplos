@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Images/map.png" type="Texture" id=1]
+[ext_resource path="res://Images/Point_Player.png" type="Texture" id=2]
+
+[node name="Map" type="TextureRect"]
+margin_right = 680.0
+margin_bottom = 600.0
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PointPlayer" type="Sprite" parent="."]
+position = Vector2( 383, 140 )
+texture = ExtResource( 2 )
